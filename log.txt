@@ -1,0 +1,18 @@
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\venky\AppData\Local\Temp\ipykernel_7172\3502899947.py", line 9, in <module>
+    print(x/y)
+          ~^~
+ZeroDivisionError: division by zero
