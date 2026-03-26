@@ -1,0 +1,77 @@
+1. Advanced Log Analyzer
+Write a program that
+Reads a log file.
+Extracts:
+IP addresses
+timestamps
+HTTP status codes
+Count how many times each status code appears.
+Identify suspicious IPs (more than 10 failed requests – status 4xx/5xx).
+
+
+2. Password Strength Validator
+
+Create a function that validates a password with rules:
+
+At least 12 characters
+Must include:
+uppercase, lowercase, digit, special character
+No repeating sequences (like "abcabc")
+Cannot contain dictionary words (you can hardcode a small list)
+
+
+3. Library Management System
+Design classes:
+
+Book, Member, Library
+Features:
+Issue/return books
+Track due dates
+Fine calculation (₹5 per day late)
+Prevent issuing unavailable books
+
+4. Banking System with Inheritance
+Create:
+
+Base class Account
+Derived classes:
+SavingsAccount
+CurrentAccount
+Features:
+Interest calculation (only savings)
+Overdraft (only current)
+Transaction history
+
+
+5. Student Marks Analyzer
+Given:
+
+List of tuples → (student_name, subject, marks)
+Tasks:
+Find topper per subject
+Average marks per student
+Subject with highest average
+Convert into dictionary format:
+{
+  "student_name": {"subject": marks}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
